@@ -11,7 +11,13 @@ public Equipment() {
 	equipment.put(ItemType.Gauntlets, null);
 }
 
-
+public void addEquip(Equipable e) {
+	if(equipment.get(e.getItemType()!= null)) {
+		equipment.replace(e.getItemType(), e);
+	}else {
+		equipment.put(e.getItemType; e);
+	}
+}
 
 public String toString() {
 	return "Weapon: " + equipment.containsKey(ItemType.Weapon) + System.lineSeparator() + "Shield: " + equipment.containsKey(ItemType.Shield)+ System.lineSeparator()+"Armor: "+equipment.containsKey(ItemType.Armor)+System.lineSeparator()+"Boots: "+equipment.containsKey(ItemType.Boots)+System.lineSeparator()+"Gauntlets: "+equipment.containsKey(ItemType.Gauntlets);

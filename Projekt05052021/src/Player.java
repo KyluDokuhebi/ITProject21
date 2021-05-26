@@ -5,8 +5,8 @@ private Equipment equip;
 
 
 
-public Player(String name) {
-	super(name);
+public Player(String name, int hp) {
+	super(name, hp);
 	equip=new Equipment();
 	
 }
@@ -32,9 +32,9 @@ public Equipment getEquip() {
 public void setEquip(Equipment equip) {
 	this.equip = equip;
 }
-
+@Override
 public String toString() {
-	return name + System.lineSeparator() + description+ System.lineSeparator() + System.lineSeparator() + "You are equipped with: "+System.lineSeparator()+equip+System.lineSeparator()+System.lineSeparator()+"Inventory: "+inv;
+	return name + System.lineSeparator() + description+ System.lineSeparator() + System.lineSeparator() + "You are equipped with: "+System.lineSeparator()+equip+System.lineSeparator()+System.lineSeparator()+inv;
 }
 
 

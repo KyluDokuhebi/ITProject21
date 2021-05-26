@@ -1,11 +1,13 @@
 
 public class Person {
 protected String name;
-protected Inventory inv;
+protected Inventory inv = new Inventory();
+protected int hp;
 
 
-public Person(String name) {
+public Person(String name, int hp) {
 	this.name=name;
+	this.hp = hp;
 }
 public Person() {
 	
@@ -19,7 +21,9 @@ public void setName(String name) {
 	this.name = name;
 }
 
-
+public String toString() {
+	return name + System.lineSeparator();
+}
 
 
 

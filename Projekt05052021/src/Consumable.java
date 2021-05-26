@@ -8,7 +8,7 @@ public Consumable(String name, String desc, int quant) {
 	this.quantity=quant;
 }
 
-
+@Override
 public String toString() {
 	return name +"("+quantity+")"+ " - "+description; 
 }
