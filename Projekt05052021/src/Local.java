@@ -36,7 +36,7 @@ public void setId(int id) {
 }
 
 public String toString() {
-	return this.name + System.lineSeparator() + "You can see someone: " + npc;
+	return this.name + System.lineSeparator() + "You can see someone: " + npc + System.lineSeparator() + "There are scattered things: " + items;
 }
 
 

@@ -34,7 +34,7 @@ public void setEquip(Equipment equip) {
 }
 @Override
 public String toString() {
-	return name + System.lineSeparator() + description+ System.lineSeparator() + System.lineSeparator() + "You are equipped with: "+System.lineSeparator()+equip+System.lineSeparator()+System.lineSeparator()+inv;
+	return name + System.lineSeparator() + description+ System.lineSeparator() + System.lineSeparator() + "You are equipped with: "+System.lineSeparator()+equip+System.lineSeparator()+"You have: "+System.lineSeparator()+inv;
 }
 
 
