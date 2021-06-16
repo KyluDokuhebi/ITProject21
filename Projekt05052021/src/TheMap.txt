@@ -1,0 +1,10 @@
+3x3
+Forest,1,0
+Village,0,1
+Field,1,1
+Castle,0,0
+River,0,2
+Meadow,2,1
+Forest,1,2
+Town,2,0
+Forest,2,2
